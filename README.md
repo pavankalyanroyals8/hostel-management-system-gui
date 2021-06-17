@@ -34,10 +34,7 @@ public class Project2 extends JPanel implements ActionListener,EventListener{
 	
 	JButton mb1,mb2,mb3,mb4;
 
-//	ImageIcon img01 = new ImageIcon(getClass().getResource("C:/ssv/project/img01.jpg")).getImage();
-//	ImageIcon img02 = new ImageIcon(getClass().getResource("C:/ssv/project/img02.jpg")).getImage();
-//	JLabel img1 = new JLabel("Image and Text",img01,JLabel.CENTER);
-//	JLabel img2 = new JLabel("Image and Text",img02,JLabel.CENTER);
+
 	 public Project2 () {
 		
 		 f1=new JFrame("Hostel login");
@@ -179,7 +176,7 @@ public class Project2 extends JPanel implements ActionListener,EventListener{
 		l10.setBounds(81,315,150,30);
 		
 		rb1.setBounds(200,355,100,25);
-  rb2.setBounds(300,355,100,25);
+    rb2.setBounds(300,355,100,25);
   
 			b3=new JButton("Create the account");
 			b4=new JButton("Go to login page");
@@ -545,7 +542,7 @@ public class Project2 extends JPanel implements ActionListener,EventListener{
 			
 			f3.setVisible(false);
 	}
-else if((arg.equals("Profile of 1860476"))) {
+      else if((arg.equals("Profile of 1860476"))) {
 		pro4.setVisible(false);
 		pro3.setVisible(false);
 			pro2.setVisible(true);
